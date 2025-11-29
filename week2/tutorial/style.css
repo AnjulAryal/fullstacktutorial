@@ -177,13 +177,12 @@ body {
   margin-top: 5rem;
   font-size: 1.1rem;
 }
-
+#drawing-canvas{
+    max-width: 50%;
+  }
 @media (max-width: 992px) {
   .grid-container { grid-template-columns: repeat(2, 1fr); }
   .overlay { font-size: 4rem; }
-  #drawing-canvas{
-    max-width: 700px;
-  }
 }
 
 @media (max-width: 768px) {
@@ -197,18 +196,14 @@ body {
     gap: 1rem;
   }
   .overlay { font-size: 2.2rem; }
-  #drawing-canvas{
-    max-width: 600px;
-  }
+
 }
 @media (max-width:620px){
   .grid-container{
     grid-template-columns: 1;
   }
   .overlay { font-size: 1.8rem; }
-  #drawing-canvas{
-    max-width: 40%;
-  }
+  
 }
 }
 
