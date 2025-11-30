@@ -1,0 +1,136 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "fullName": "Anjul Aryal",
+      "email": "aryalanjul123@gmail.com",
+      "phone": "98671277747",
+      "address": "Butwal-12 Nayagaun",
+      "Role": "Full Stack Developer",
+      "Bio": "Hi I am Full Stack Developer hahaha",
+      "twitter": "Aryalanjul11",
+      "linkedIn": "Anjularyal",
+      "github": "anjul123"
+    },
+    {
+      "id": "2",
+      "fullName": "Bishal Khanal",
+      "email": "aryalBishal123@gmail.com",
+      "phone": "9817419068",
+      "address": "gg",
+      "Role": "Full Stack Developer",
+      "Bio": "Hi I am Full Stack Developer hahaha",
+      "twitter": "Aryalanjul11",
+      "linkedIn": "Anjularyal",
+      "github": "anjul123"
+    },
+    {
+      "id": "d689",
+      "name": "Anjul Aryal",
+      "email": "np03cs4a240370@heraldcollege.edu.np",
+      "phone": "9867127747",
+      "address": "ss",
+      "role": "ss",
+      "bio": "sss",
+      "twitter": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQdzcqWSnhMWsBkvqZXLvwlPMZC",
+      "linkedIn": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQdzcqWSnhMWsBkvqZXLvwlPMZC",
+      "github": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQdzcqWSnhMWsBkvqZXLvwlPMZC"
+    },
+    {
+      "id": "bd70",
+      "name": "Praju Mananadhar",
+      "email": "whattosat@gmail.com",
+      "phone": "986717277747",
+      "address": "haha",
+      "role": "fhf",
+      "bio": "edjbdjd",
+      "twitter": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQdzcqWSnhMWsBkvqZXLvwlPMZC",
+      "linkedIn": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQdzcqWSnhMWsBkvqZXLvwlPMZC",
+      "github": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQdzcqWSnhMWsBkvqZXLvwlPMZC"
+    },
+    {
+      "id": "b18d",
+      "name": "Anjul Aryal",
+      "email": "aryalanjul123@gmail.com",
+      "phone": "9867127747",
+      "address": "butwal 12 nayagaun",
+      "role": "jo",
+      "bio": "ss",
+      "twitter": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "linkedIn": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "github": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW"
+    },
+    {
+      "id": "aa22",
+      "name": "Anjul Aryal",
+      "email": "aryalanjul123@gmail.com",
+      "phone": "9867127747",
+      "address": "butwal 12 nayagaun",
+      "role": "jo",
+      "bio": "ss",
+      "twitter": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "linkedIn": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "github": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW"
+    },
+    {
+      "id": "3d21",
+      "name": "Anjul Aryal",
+      "email": "aryalanjul123@gmail.com",
+      "phone": "9867127747",
+      "address": "butwal 12 nayagaun",
+      "role": "jo",
+      "bio": "ss",
+      "twitter": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "linkedIn": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "github": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW"
+    },
+    {
+      "id": "c087",
+      "name": "Anjul Aryal",
+      "email": "aryalanjul123@gmail.com",
+      "phone": "9867127747",
+      "address": "butwal 12 nayagaun",
+      "role": "jo",
+      "bio": "ss",
+      "twitter": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "linkedIn": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "github": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW"
+    },
+    {
+      "id": "af80",
+      "name": "Anjul Aryal",
+      "email": "aryalanjul123@gmail.com",
+      "phone": "9867127747",
+      "address": "butwal 12 nayagaun",
+      "role": "jo",
+      "bio": "ss",
+      "twitter": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "linkedIn": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "github": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW"
+    },
+    {
+      "id": "25db",
+      "name": "Anjul Aryal",
+      "email": "aryalanjul123@gmail.com",
+      "phone": "9867127747",
+      "address": "butwal 12 nayagaun",
+      "role": "jo",
+      "bio": "ss",
+      "twitter": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "linkedIn": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "github": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW"
+    },
+    {
+      "id": "892c",
+      "name": "oli",
+      "email": "aryalanjul123@gmail.com",
+      "phone": "+977 986 7127747",
+      "address": "butwal 12 nayagaun",
+      "role": "jo",
+      "bio": "sshgdsjak",
+      "twitter": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQdzcqWSnhMWsBkvqZXLvwlPMZC",
+      "linkedIn": "https://drive.google.com/drive/folders/1gFa7_Lc0savqqdfam-huPscvce-ku8tW",
+      "github": "https://mail.google.com/mail/u/0/#inbox/FMfcgzQdzcqWSnhMWsBkvqZXLvwlPMZC"
+    }
+  ]
+}

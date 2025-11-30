@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Detail</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .user-detail {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      max-width: 600px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 20px;
+    }
+    .user-detail img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .user-info h2 {
+      margin: 0;
+      color: #0078d7;
+    }
+    .user-info p {
+      margin: 5px 0;
+      color: #555;
+    }
+    .user-info .bio {
+      margin-top: 15px;
+      font-style: italic;
+      color: #444;
+    }
+    .social-links a {
+      margin-right: 10px;
+      text-decoration: none;
+      color: #0078d7;
+    }
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+    .back-btn {
+      grid-column: span 2;
+      margin-top: 20px;
+      padding: 10px 15px;
+      background: #0078d7;
+      color: #fff;
+      border-radius: 4px;
+      text-decoration: none;
+      text-align: center;
+      display: inline-block;
+    }
+    .back-btn:hover {
+      background: #005a9e;
+    }
+  </style>
+</head>
+<body>
+  <div class="user-detail">
+    <img src="https://via.placeholder.com/150" alt="User">
+    <div class="user-info">
+      <h2 id="userName">User Name</h2>
+      <p id="userEmail">user@example.com</p>
+      <p id="userPhone">+1 (555) 123-4567</p>
+      <p id="userAddress">123 Main Street, Springfield</p>
+      <p id="userRole">Frontend Developer</p>
+      <p class="bio" id="userBio">Passionate about building clean UI and improving user experience.</p>
+      <div class="social-links">
+        <a id="userTwitter" href="#">Twitter</a>
+        <a id="userLinkedIn" href="#">LinkedIn</a>
+        <a id="userGithub" href="#">GitHub</a>
+      </div>
+    </div>
+    <a href="index.html" class="back-btn">← Back to Users</a>
+  </div>
+
+  <script>
+  // Get user ID from query string
+  const params = new URLSearchParams(window.location.search);
+  const userId = params.get("id");
+
+  // Fetch user from json-server
+  fetch(`http://localhost:3001/users/${userId}`)
+    .then(response => response.json())
+    .then(data => {
+      console.log("Fetched User:", data);
+
+      // Update UI with real user data
+      document.getElementById("userName").textContent = data.fullName;
+      document.getElementById("userEmail").textContent = data.email;
+      document.getElementById("userPhone").textContent = data.phone;
+      document.getElementById("userAddress").textContent = data.address;
+      document.getElementById("userRole").textContent = data.Role;
+      document.getElementById("userBio").textContent = data.Bio;
+
+      // Social Links
+      document.getElementById("userTwitter").href = "https://twitter.com/" + data.twitter;
+      document.getElementById("userLinkedIn").href = "https://linkedin.com/in/" + data.linkedIn;
+      document.getElementById("userGithub").href = "https://github.com/" + data.github;
+    })
+    .catch(err => console.log("Error fetching user:", err));
+</script>
+
+</body>
+</html>
