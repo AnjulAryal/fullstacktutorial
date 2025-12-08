@@ -1,3 +1,22 @@
 {
-  "movies": []
+  "movies": [
+    {
+      "id": "df61",
+      "title": "hahah",
+      "genre": "gg",
+      "year": 2000
+    },
+    {
+      "id": "28f0",
+      "title": "anjkhs",
+      "genre": "sqbjx",
+      "year": 200
+    },
+    {
+      "id": "5888",
+      "title": "shjhsq",
+      "genre": "haha",
+      "year": 2900
+    }
+  ]
 }
