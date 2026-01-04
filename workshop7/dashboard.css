@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	pad: 0;
+}
+body{
+	height: 100vh;
+}
+.container{
+	width: 50%;
+	height: 500px;
+	margin: 70px auto;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	border: solid black 0.1px;
+	padding:50px;
+	position: relative;
+}
+h1{
+	text-align: center;
+	letter-spacing: 0.5rem;
+}
+.container .hello{
+	padding-block: 1rem;
+	text-align: center;
+	letter-spacing: 0.5rem;
+	margin-block: 4rem;
+}
+
+.container .last {
+	position: absolute;
+	left: 40%;
+	bottom: 10%;
+}
+.container .btn{
+	background: #FA5C5C;
+	color: white;
+	border: solid white 0.11px;
+	margin-left: 40%;
+	padding: 0.5rem;
+	border-radius: 0.25rem;
+	cursor: pointer;
+}
+ .frm{
+ 	margin-left: 35%;
+}
