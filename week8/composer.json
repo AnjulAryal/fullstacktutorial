@@ -1,0 +1,19 @@
+{
+    "name": "anjularyal/workshop8",
+    "autoload": {
+        "psr-4": {
+            "Anjularyal\\Workshop8\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AnjulAryal",
+            "email": "aryalanjul9068@gmail.com"
+        }
+    ],
+    "require": { 
+    "php": ">=8.0", 
+    "jenssegers/blade": "^1.4" 
+  } 
+
+}
